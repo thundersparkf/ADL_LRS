@@ -27,7 +27,7 @@ EMAIL_USE_SSL = config.getboolean('email', 'EMAIL_USE_SSL')
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': config.get('database', 'NAME'),
         'USER': config.get('database', 'USER'),
         'PASSWORD': config.get('database', 'PASSWORD'),
